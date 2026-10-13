@@ -1,0 +1,6 @@
+{
+  "name": "natura-pruebas",
+  "private": true,
+  "devDependencies": {"@babel/core": "^7.0.0"},
+  "scripts": {"preparar": "python preparar-catalogo-apps-script.py"}
+}

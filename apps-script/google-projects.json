@@ -1,7 +1,7 @@
 {
   "sourceRepository": "gruemp/natura",
   "sourceCommit": "9afcb31d53a24073e1d68aa1f61a17c866e013a0",
-  "status": "servicios de pruebas desplegados; catálogo pendiente de apertura",
+  "status": "catálogo abierto y carga de productos, fotografías y anuncios verificada; escrituras comerciales no ejecutadas",
   "projects": [
     {
       "name": "administrar precios natura",
@@ -10,7 +10,8 @@
       "originalScriptId": "1-wBaemhULEFETfQHJDocPTOjbXnVds27DZfiIU9sMnCYf01qSycs1jc4",
       "status": "desplegado; funcionamiento comercial no probado con escrituras",
       "endpoint": "https://script.google.com/macros/s/AKfycbx3y7UfPbVyEqd22wyv41x_JmbFW7rdw5hNIZr40MAN4_sPoiJTFLxAlMW9zvRNXel_Fw/exec",
-      "version": 1
+      "version": 2,
+      "deploymentTimeDisplayed": "2026-10-13 00:19 (America/Bogota; precisión de minuto)"
     },
     {
       "name": "pedidos natura",
@@ -19,16 +20,18 @@
       "originalScriptId": "12M9b5tq5xV0tqMxoJgJgjPKaOE8Q9PQj5TfyzhFEBtNcJHOijKkByEwt",
       "status": "desplegado; funcionamiento comercial no probado con escrituras",
       "endpoint": "https://script.google.com/macros/s/AKfycbzLjzcPQ6qtfUZXr-k-wJc1p_zE5mC5Jw08BgiOwmGSMMbfK3VxqAh8wLTnXejlAc-N/exec",
-      "version": 1
+      "version": 2,
+      "deploymentTimeDisplayed": "2026-10-13 00:19 (America/Bogota; precisión de minuto)"
     },
     {
       "name": "lectura de carpetas en natura",
       "scriptId": "1HmgRV6eHceiib4ggHWjFtQ0bcAJ3OkS7Vma0jNsJZZXLnNNZwfcN6F2s",
       "gitPath": "lectura de carpetas en natura",
       "originalScriptId": "1wN8Cyp7JmJOtIY0etPKyo_3r5y48MYpMrT5PFQeVmoyztPwYO53sWfLf",
-      "status": "desplegado; funcionamiento comercial no probado con escrituras",
+      "status": "desplegado; fotografías, anuncios y lectura saneada de productos comprobados",
       "endpoint": "https://script.google.com/macros/s/AKfycbxeLNpiA_3SUpJoc0sFYaxEU8sZCO8GFkqbjubSoA0Gu5z5wBuWAslYy9oEj2e__Sbt/exec",
-      "version": 1
+      "version": 2,
+      "deploymentTimeDisplayed": "2026-10-13 00:18 (America/Bogota; precisión de minuto)"
     },
     {
       "name": "coordenadas de visitantes natura",
@@ -44,11 +47,12 @@
       "scriptId": "1cTkjRqehNZlnSmRY_exIMq68ahl2Z7Wo3Zmre49ArckwjZCDSOUP1J2b",
       "gitPath": "lector publico natura",
       "originalScriptId": "1osm-0ZxL2p5UV041ufVSM2nQZezp2TonkC48wNWIG8EOPWAYMTSVY7DX",
-      "status": "desplegado; funcionamiento comercial no probado con escrituras",
+      "status": "catálogo abierto; 323 productos visibles según configuración comercial copiada",
       "endpoint": "https://script.google.com/macros/s/AKfycbxoh0n85FXycLFQDSstFPvKP-RfY0joRRAHf8LAGjqQ8t3ku2_qe0LpfYd1sGZH6ZaR/exec",
-      "version": 3
+      "version": 5,
+      "deploymentTimeDisplayed": "2026-10-13 00:17 (America/Bogota; precisión de minuto)"
     }
   ],
-  "catalogue": "https://script.google.com/macros/s/AKfycbxoh0n85FXycLFQDSstFPvKP-RfY0joRRAHf8LAGjqQ8t3ku2_qe0LpfYd1sGZH6ZaR/exec?modo=catalogo"
+  "catalogue": "https://script.google.com/macros/s/AKfycbxoh0n85FXycLFQDSstFPvKP-RfY0joRRAHf8LAGjqQ8t3ku2_qe0LpfYd1sGZH6ZaR/exec?modo=catalogo",
+  "compatibilitySourceCommit": "51b9697cdfdfc8e1546d081edc049443d98f5dad"
 }
-

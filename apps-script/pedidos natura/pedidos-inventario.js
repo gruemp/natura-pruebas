@@ -59,7 +59,7 @@ function resolveInventoryItems_(requestedItems) {
   const lastRow = sheet.getLastRow();
   if (lastRow <= context.headerRow) throw new Error("El inventario oficial no contiene productos.");
 
-  const descriptionColumn = columns["Informacion del producto"]||columns["Descripción integral del producto"];
+  const descriptionColumn = columns["Etiquetas: obligatorias (negrita) - No obligatorias (sin negrita)"]||columns["Descripción completa del producto"]||columns["Informacion del producto"]||columns["Descripción integral del producto"];
   if (!descriptionColumn) throw new Error("Falta la descripción integral en el inventario.");
   const descriptions = sheet.getRange(context.headerRow + 1, descriptionColumn,
     lastRow - context.headerRow, 1).getDisplayValues();
@@ -167,3 +167,4 @@ function compactPriceNumber_(value){
   if(text&&!/^\d+(?:\.\d+)?$/.test(text))throw new Error("Precio inválido en Productos.");
   return text;
 }
+
