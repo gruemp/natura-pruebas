@@ -140,7 +140,7 @@
     }
     const fmtCOP = new Intl.NumberFormat("es-CO", { maximumFractionDigits:0 });
 
-    const SITE_BASE = new URL("./", window.location.href).href;
+    const SITE_BASE = window.NATURA_PRUEBAS_CONFIG.catalogo;
 
     function normalizeText(t){
       return (t || "")
@@ -3695,5 +3695,6 @@ async function init(){
   await restoreCatalogAdminAfterReload(startupAdminState);
   uxRestoreScrollPosition();
 }
+
 
 

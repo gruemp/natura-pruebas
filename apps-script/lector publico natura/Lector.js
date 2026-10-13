@@ -7,6 +7,11 @@ const VISIBILIDAD_TIPOS = ['producto','seccion','categoria','subcategoria','publ
 function doGet(evento) {
   const p = evento && evento.parameter || {};
   const modo = String(p.modo || '').trim().toLowerCase();
+  if (modo === 'catalogo') {
+    const pagina=HtmlService.createHtmlOutputFromFile('Catalogo');
+    if(String(p.verificacion||'')==='1') pagina.setContent(pagina.getContent().replace('<head>','<head><script>window.NATURA_VERIFICACION=true;</script>'));
+    return pagina.setTitle('Natura · catálogo de pruebas').addMetaTag('viewport','width=device-width, initial-scale=1');
+  }
   let payload;
   try {
     if (modo === 'visibilidad') payload = leerVisibilidadPublica_();
@@ -66,3 +71,4 @@ function leerConfiguracionPublica_() {
   if (!estado.configuracion) throw new Error('Configuración no publicada');
   return {ok:true,valores:confirmarConfiguracion_(JSON.parse(estado.configuracion),estado.revision),publicadoEn:estado.revision,actualizadoEn:new Date().toISOString()};
 }
+

@@ -3,7 +3,7 @@
   const shareBtn = document.getElementById("shareCatalogBtn");
 
   shareBtn?.addEventListener("click", async () => {
-    const url = window.location.href.split("#")[0];
+    const url = window.NATURA_PRUEBAS_CONFIG.catalogo;
     const datos = {
       title:document.title,
       text:"Catálogo Irenismb Stock Natura",
@@ -406,3 +406,4 @@ document.getElementById("catalogHomeBtn")?.addEventListener("click",()=>{
   window.setCatalogShowAllProductsDirectEnabled(true);
   refreshNavigationAlbums();refreshFilterOptionsForScope();writeStateToUrl();render();
 });
+

@@ -1,0 +1,9 @@
+{
+  "scriptId": "1HmgRV6eHceiib4ggHWjFtQ0bcAJ3OkS7Vma0jNsJZZXLnNNZwfcN6F2s",
+  "endpoint": "https://script.google.com/macros/s/AKfycbxeLNpiA_3SUpJoc0sFYaxEU8sZCO8GFkqbjubSoA0Gu5z5wBuWAslYy9oEj2e__Sbt/exec",
+  "version": 1,
+  "executeAs": "USER_DEPLOYING",
+  "access": "ANYONE_ANONYMOUS",
+  "deploymentDate": "2026-10-12",
+  "timeZone": "America/Bogota"
+}

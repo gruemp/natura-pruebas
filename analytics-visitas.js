@@ -1,4 +1,5 @@
 (() => {
+  if(window.NATURA_VERIFICACION === true) return;
   const GPS_LOG_ENDPOINT = window.NATURA_PRUEBAS_CONFIG.visitantes;
   const USER_ID_KEY = "irenismb_user_id";
   const VISITOR_SHEET_ID = "1vxxTu4HWcgDm2HcCwPykMXyepVAFQcFsQkHUS6ed81g";
@@ -608,3 +609,4 @@
     return String(valor || "").replace(/[<>]/g, "").replace(/\s+/g, " ").trim().slice(0, 180);
   }
 })();
+
