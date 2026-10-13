@@ -1,0 +1,42 @@
+{
+  "sourceRepository": "gruemp/natura",
+  "sourceCommit": "9afcb31d53a24073e1d68aa1f61a17c866e013a0",
+  "status": "copias creadas; despliegues pendientes de aprobación",
+  "projects": [
+    {
+      "name": "administrar precios natura",
+      "scriptId": "10UzprixP4Dw860DJrvTJ1asRYOuETK3bteDl0kwuU6Y-AU-yiDh41gfM",
+      "gitPath": "administrar precios natura",
+      "originalScriptId": "1-wBaemhULEFETfQHJDocPTOjbXnVds27DZfiIU9sMnCYf01qSycs1jc4",
+      "status": "sin despliegue de pruebas confirmado"
+    },
+    {
+      "name": "pedidos natura",
+      "scriptId": "1DkKlwNtTFNfbgATYuXphqf9nS6gg0W1P-aGiLUvIlsYtdkzD4B6_K0cq",
+      "gitPath": "pedidos natura",
+      "originalScriptId": "12M9b5tq5xV0tqMxoJgJgjPKaOE8Q9PQj5TfyzhFEBtNcJHOijKkByEwt",
+      "status": "sin despliegue de pruebas confirmado"
+    },
+    {
+      "name": "lectura de carpetas en natura",
+      "scriptId": "1HmgRV6eHceiib4ggHWjFtQ0bcAJ3OkS7Vma0jNsJZZXLnNNZwfcN6F2s",
+      "gitPath": "lectura de carpetas en natura",
+      "originalScriptId": "1wN8Cyp7JmJOtIY0etPKyo_3r5y48MYpMrT5PFQeVmoyztPwYO53sWfLf",
+      "status": "sin despliegue de pruebas confirmado"
+    },
+    {
+      "name": "coordenadas de visitantes natura",
+      "scriptId": "1XWYEPi27a1OmXh6zkH3v6cP_eZzWenApt7ufoCb87wC9QvPgL9BBCX2a",
+      "gitPath": "coordenadas de visitantes natura",
+      "originalScriptId": "1T2y1xSKlZueX-SYDU9HxFi6K4ShLbiHRUGY21caNtSv9Gz-6h1aLd5ZN",
+      "status": "sin despliegue de pruebas confirmado"
+    },
+    {
+      "name": "lector publico natura",
+      "scriptId": "1cTkjRqehNZlnSmRY_exIMq68ahl2Z7Wo3Zmre49ArckwjZCDSOUP1J2b",
+      "gitPath": "lector publico natura",
+      "originalScriptId": "1osm-0ZxL2p5UV041ufVSM2nQZezp2TonkC48wNWIG8EOPWAYMTSVY7DX",
+      "status": "sin despliegue de pruebas confirmado"
+    }
+  ]
+}

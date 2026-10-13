@@ -1,0 +1,20 @@
+{
+  "timeZone": "America/Bogota",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [],
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE_ANONYMOUS"
+  },
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "AdminNatura",
+        "libraryId": "10UzprixP4Dw860DJrvTJ1asRYOuETK3bteDl0kwuU6Y-AU-yiDh41gfM",
+        "version": "1",
+        "developmentMode": false
+      }
+    ]
+  }
+}
