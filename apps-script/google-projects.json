@@ -10,8 +10,8 @@
       "originalScriptId": "1-wBaemhULEFETfQHJDocPTOjbXnVds27DZfiIU9sMnCYf01qSycs1jc4",
       "status": "desplegado; funcionamiento comercial no probado con escrituras",
       "endpoint": "https://script.google.com/macros/s/AKfycbx3y7UfPbVyEqd22wyv41x_JmbFW7rdw5hNIZr40MAN4_sPoiJTFLxAlMW9zvRNXel_Fw/exec",
-      "version": 2,
-      "deploymentTimeDisplayed": "2026-10-13 00:19 (America/Bogota; precisión de minuto)"
+      "version": 3,
+      "deploymentTimeDisplayed": "2026-10-13 00:22 (America/Bogota; precisión de minuto)"
     },
     {
       "name": "pedidos natura",
@@ -49,8 +49,8 @@
       "originalScriptId": "1osm-0ZxL2p5UV041ufVSM2nQZezp2TonkC48wNWIG8EOPWAYMTSVY7DX",
       "status": "catálogo abierto; 323 productos visibles según configuración comercial copiada",
       "endpoint": "https://script.google.com/macros/s/AKfycbxoh0n85FXycLFQDSstFPvKP-RfY0joRRAHf8LAGjqQ8t3ku2_qe0LpfYd1sGZH6ZaR/exec",
-      "version": 5,
-      "deploymentTimeDisplayed": "2026-10-13 00:17 (America/Bogota; precisión de minuto)"
+      "version": 6,
+      "deploymentTimeDisplayed": "2026-10-13 00:22 (America/Bogota; precisión de minuto)"
     }
   ],
   "catalogue": "https://script.google.com/macros/s/AKfycbxoh0n85FXycLFQDSstFPvKP-RfY0joRRAHf8LAGjqQ8t3ku2_qe0LpfYd1sGZH6ZaR/exec?modo=catalogo",
