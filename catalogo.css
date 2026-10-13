@@ -995,3 +995,61 @@ body.cart-open,body.form-open,body.img-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){
   .catalog-categories button{transition:none}
 }
+
+
+/* Evolución visual: jerarquía y profundidad de las fichas de producto. */
+.card.catalog-ficha-card{
+  position:relative;
+  border-color:#ead7d4;
+  box-shadow:0 6px 18px rgba(89,55,43,.07);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+.card.catalog-ficha-card::before{
+  content:"";
+  position:absolute;
+  z-index:3;
+  inset:0 0 auto;
+  height:3px;
+  background:linear-gradient(90deg,#bd7a87 0%,#e7b9bd 48%,#c69b64 100%);
+  pointer-events:none;
+}
+.catalog-ficha-card .ficha-attributes dt{color:#74394f}
+.catalog-ficha-card .price{
+  color:#3d2325;
+  font-weight:800;
+  letter-spacing:-.015em;
+}
+.catalog-ficha-card .pad{
+  padding:13px 16px 15px;
+  background:linear-gradient(180deg,rgba(255,250,245,.96),rgba(250,239,236,.98));
+}
+.catalog-ficha-card .actions .btn-acc{
+  min-height:44px;
+  border-color:#d9a2ad;
+  background:linear-gradient(135deg,#efc6ce,#e9b8c2);
+  color:#2e1d22;
+  box-shadow:0 4px 10px rgba(125,65,82,.12);
+  transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+@media(hover:hover){
+  .card.catalog-ficha-card:hover{
+    transform:translateY(-3px);
+    border-color:#ddb9bd;
+    box-shadow:0 12px 26px rgba(89,55,43,.12);
+  }
+  .catalog-ficha-card .actions .btn-acc:hover{
+    transform:translateY(-1px);
+    border-color:#c98796;
+    background:linear-gradient(135deg,#eab9c3,#e4aab7);
+    box-shadow:0 7px 14px rgba(125,65,82,.18);
+  }
+}
+@media(max-width:760px){
+  .card.catalog-ficha-card{box-shadow:0 5px 15px rgba(89,55,43,.08)}
+  .catalog-ficha-card .pad{padding:12px 13px 14px}
+  .catalog-ficha-card .actions .btn-acc{min-height:46px}
+}
+@media(prefers-reduced-motion:reduce){
+  .card.catalog-ficha-card,.catalog-ficha-card .actions .btn-acc{transition:none}
+  .card.catalog-ficha-card:hover,.catalog-ficha-card .actions .btn-acc:hover{transform:none}
+}
